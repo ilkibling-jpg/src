@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -type f \\\\\\( -name \"*account*center*\" -o -name \"*account*Centre*\" \\\\\\) ! -path \"*/node_modules/*\" ! -path \"*/.open-next/*\" 2>/dev/null | head -20)",
+      "Bash(find . -type f -path \"*/pages/*\" \\\\\\( -iname \"*account*\" -o -iname \"*center*\" \\\\\\) ! -path \"*/node_modules/*\" 2>/dev/null | head -20)",
+      "Bash(find components:*)",
+      "Bash(grep -r \"accounts-center\\\\|AccountsCenter\" --include=\"*.tsx\" --include=\"*.ts\" --include=\"*.jsx\" --include=\"*.js\" app/ components/ 2>/dev/null | head -20)"
+    ]
+  }
+}
